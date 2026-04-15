@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ribbit
+      POSTGRES_PASSWORD: ribbit
+      POSTGRES_DB: ribbit
+    ports:
+      - '5433:5432'
+    volumes:
+      - ribbit_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ribbit_pgdata:
