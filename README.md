@@ -173,7 +173,7 @@ npm run build
 
 ## 许可证
 
-本仓库主要用于**学习与交流展示**。若需二次分发或商业使用，请自行评估合规性并建议补充明确的 [开源许可证](https://choosealicense.com/)（例如在仓库根目录添加 `LICENSE` 文件）。
+本项目以 **[MIT License](LICENSE)** 发布。使用或分发时请保留 `LICENSE` 中的版权声明与许可全文。
 
 ---
 
@@ -183,4 +183,4 @@ npm run build
 
 **Quick start**: install Node 18+, run `docker compose up -d`, copy `server/.env.example` to `server/.env`, set `DATABASE_URL` / `JWT_SECRET`, run `npm run migrate --prefix server`, then `npm run dev` from the repo root. Open <http://localhost:5173>.
 
-For API details see the table above or `server/index.js`. This project is primarily for learning; add a proper `LICENSE` file if you need clear redistribution terms.
+For API details see the table above or `server/index.js`. Licensed under the [MIT License](LICENSE).
