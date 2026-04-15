@@ -21,8 +21,6 @@ npm run dev
 
 浏览器打开 <http://localhost:5173>（Vite 将 `/api`、`/socket.io` 代理到本机 `3001`）。
 
-可选：若需从旧版 `users.json` 导入用户，在迁移后执行 `npm run import-json --prefix server`。
-
 ## 许可证
 
 [MIT](LICENSE)
